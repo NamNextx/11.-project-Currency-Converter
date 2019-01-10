@@ -6,7 +6,7 @@
   + Kết thúc:
 - Đối tượng tham gia:
   + Nam Phương
-  + Trang Trần
+  + Trang Trần.
 - Nhiệm vụ cụ thể
   + Nam: code Back-end
   + Chị trang: code Front-end
