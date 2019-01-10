@@ -1,0 +1,43 @@
+<!--Các bước thao tác với ứng dụng:
+
+Lựa chọn đồng tiền gốc (chẳng hạn là Việt Nam Đồng) bằng cách chọn danh sách From Currency
+
+Lựa chọn đồng tiền muốn chuyển đổi sang (chẳng hạn là Đô-la Mỹ) bằng cách chọn từ danh sách To Currency
+
+Nhập vào giá trị muốn chuyển đổi ở trường Ammout
+
+Nhấn nút Convert thì kết quả sẽ hiển thị ở bên dưới.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyendoitiente</title>
+    <script type="text/javascript" src="funcfile.js"></script>
+</head>
+<body>
+<form>
+    So tien can chuyen doi: <input type="text" id="number" name="number" >
+
+    <select id="selectin" onchange="getin(this)">
+        <option value="">--Lua chon--</option>
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <select id="selectout" onchange="getout(this)">
+        <option value="">--Lua chon--</option>
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <button type="button" onclick="chuyendoi()">Chuyen tien</button>
+
+
+</form>
+
+<div id="div1">
+    Rerult:
+</div>
+<script>
+
+</script>
+</body>
+</html>
